@@ -18,7 +18,8 @@ class MainKtTest {
         val transferMoneyCents = 7_500_00uL
         val result = calcTax(transferMoneyCents = transferMoneyCents)
 
-        assertEquals(0uL, result)
+//        assertEquals(0uL, result)
+        assertEquals(1uL, result)
     }
     @Test
     fun calcTax_00() {
